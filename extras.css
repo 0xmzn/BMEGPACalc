@@ -1,0 +1,19 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+}
