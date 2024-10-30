@@ -73,7 +73,6 @@ function transformData(rows) {
 }
 
 async function handleFileUpload() {
-    console.log("handleFileUpload called");
     const fileInput = document.getElementById('file-input');
     const file = fileInput.files[0];
 
