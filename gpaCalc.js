@@ -53,7 +53,7 @@ function calculateGPA(rows) {
 
    const outputSection = document.getElementById('output');
     if (completedCredits > 0) {
-        outputSection.textContent = `CGPA: ${(numerator / completedCredits).toFixed(1)}`;
+        outputSection.textContent = `CGPA: ${(numerator / completedCredits).toFixed(2)}`;
     } else {
         outputSection.textContent = "No completed credits found to calculate CGPA.";
     }
